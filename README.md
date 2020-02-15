@@ -32,6 +32,9 @@ For a detailed introduction, full list of features and architecture
 overview please visit the official project page:
 <https://owasp-juice.shop>
 
+## Notice on fork
+This fork was created as a personal learning experiment. The goal here is to not just exploit the vulnerabilities in the juice shop but to also fix them afterwards.
+
 ## Setup
 
 > You can find some less common installation variations in
