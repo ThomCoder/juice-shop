@@ -174,7 +174,9 @@ export class NavbarComponent implements OnInit {
   getScoreBoardStatus () {
     this.challengeService.find({ name: 'Score Board' }).subscribe((challenges: any) => {
       this.ngZone.run(() => {
-        this.scoreBoardVisible = challenges[0].solved
+        // Challenge "Score Board"
+        // this.scoreBoardVisible = challenges[0].solved
+        this.scoreBoardVisible = true
       })
     }, (err) => console.log(err))
   }
